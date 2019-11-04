@@ -14,7 +14,9 @@ class EmailAddressParser
     array = []
     array << @email_addresses
     @email_addresses.split(/, ?/).each do |email_address|
-      
+      # separate with space 
+      # seperate with commas 
+      # return unique email addresses
       
       
     end
