@@ -13,6 +13,6 @@ class EmailAddressParser
   def parse
     array = []
     array << @email_addresses.split(/, ?/)
+    array.flatten
   end
-  array.flatten
 end
