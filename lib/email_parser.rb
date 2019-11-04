@@ -17,6 +17,6 @@ class EmailAddressParser
       email_address.split(/, ?/)
     end
       
-    array.uniq
+    
   end
 end
