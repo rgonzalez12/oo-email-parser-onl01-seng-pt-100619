@@ -19,6 +19,6 @@ class EmailAddressParser
       # return unique email addresses
       
       
-    end
+    
   end
 end
