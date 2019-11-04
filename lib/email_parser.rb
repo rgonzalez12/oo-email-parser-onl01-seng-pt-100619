@@ -13,7 +13,7 @@ class EmailAddressParser
   def parse
     array = []
     array << @email_addresses
-    @email_addresses.split(/\s*-\s*/).each do |email_address|
+    @email_addresses.split(/\s*-\s*/)
       # separate with space 
       # seperate with commas 
       # return unique email addresses
