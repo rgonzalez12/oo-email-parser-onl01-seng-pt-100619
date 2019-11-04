@@ -13,8 +13,8 @@ class EmailAddressParser
   def parse
     array = []
     array << @email_addresses
-    @email_addresses.each do |email_address|
-      email_address.split(/, ?/)
+    @email_addresses.split(/, ?/)each do |email_address|
+      
       
       
     end
