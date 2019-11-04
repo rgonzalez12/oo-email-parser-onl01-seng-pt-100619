@@ -15,6 +15,7 @@ class EmailAddressParser
     array << @email_addresses
     email_addresses.each do |email_address|
       email_address.split(/, ?/)
+    end
       
     array.uniq
   end
