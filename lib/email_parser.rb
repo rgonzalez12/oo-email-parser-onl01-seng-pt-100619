@@ -14,7 +14,7 @@ class EmailAddressParser
     array = []
     array << @email_addresses
     email_addresses do |email_address|
-      email_address.split(/, ?/).join(" ")
+      email_address.split(/, ?/)
     end
   end
 end
