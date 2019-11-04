@@ -9,10 +9,13 @@ class EmailAddressParser
   
   def initialize(email_addresses)
     @@all << self
+  end
+  
+  def self
     @@all
   end
 
   def parse
-    @all
+    
   end
 end
