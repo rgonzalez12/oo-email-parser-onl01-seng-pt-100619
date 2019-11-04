@@ -11,17 +11,7 @@ class EmailAddressParser
   end
 
   def parse
-    array = []
-    array << @email_addresses
-    @email_addresses.split(/\s*-\s*/)
-      # separate with space 
-      # seperate with commas 
-      # return unique email addresses
-      
-    csv_emails.split.collect do |address|
-    address.split(',') 
-    end
-    .flatten.uniq 
+    email_addresses
   end 
     
   end
