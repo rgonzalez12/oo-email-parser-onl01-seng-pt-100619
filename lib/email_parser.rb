@@ -11,6 +11,7 @@ class EmailAddressParser
   end
 
   def parse
-    @email_addresses
+    array = []
+    array << @email_addresses
   end
 end
